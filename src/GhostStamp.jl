@@ -1,4 +1,4 @@
-module WatermarkPlots
+module GhostStamp
 
 using Plots
 using Colors # Colorant, RGBA

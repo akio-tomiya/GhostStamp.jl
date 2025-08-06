@@ -2,7 +2,7 @@ module GhostStamp
 
 using Plots
 using Colors # Colorant, RGBA
-using Statistics: mean      # xmid, ymid
+# using Statistics: mean      # xmid, ymid
 
 export add_preliminary!,add_stamp!     # Public API
 

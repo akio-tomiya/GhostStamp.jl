@@ -4,7 +4,8 @@
 
 *A lightweight helper to stamp translucent labels (“PRELIMINARY”, “DRAFT”, ­…​), watermakrs onto figures created with **Plots.jl***. 
 
-<img width="50%" height="50%" alt="image" src="https://github.com/akio-tomiya/GhostStamp.jl/blob/main/logo.pdf" >
+<img width="40%" height="40%" alt="image" src="https://github.com/akio-tomiya/GhostStamp.jl/blob/main/logo.png" >
+
 
 ---
 

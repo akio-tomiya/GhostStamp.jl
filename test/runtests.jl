@@ -12,7 +12,7 @@ using Test
     @test 1 == 1
 
     plt = plot(1:10, 1:10)
-    add_stamp!(plt; txt="TEST")
+    add_stamp!(plt; text="TEST")
     # length(Plots.annotations(plt))
     @test 1 == 1
 

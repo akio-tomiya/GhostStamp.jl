@@ -21,7 +21,7 @@ function add_stamp!(plt; text="", angle=30,
 
     base = color isa Colorant ? color : parse(Colorant, string(color))
     txtcol = RGBA(red(base), green(base), blue(base), alpha)
-    t = text(text, fs, txtcol; halign=:center, valign=:center, rotation=angle)
+    t = Plots.text(text, fs, txtcol; halign=:center, valign=:center, rotation=angle)
 
     xmid = sum(xlims(plt)) / 2
     ymid = sum(ylims(plt)) / 2

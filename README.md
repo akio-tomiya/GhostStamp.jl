@@ -12,6 +12,7 @@
 ## 1. Features
 
 - **One-liner watermark** – call `add_preliminary!` or `add_stamp!` on any `Plots.Plot`.
+- **Centered in each 2D subplot** – stays centered on linear and logarithmic axes, even after changing axis limits or adding data.
 - **Fully style-able** – text, font size, rotation, colour and alpha can be customised.
 - **Backend-agnostic** – works with GR, PyPlot, PlotlyJS, …​ anything supported by Plots.jl.
 - **Zero dependencies except Plots & Colors** – no splash of Cairo or Makie.
